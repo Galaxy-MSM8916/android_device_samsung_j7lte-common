@@ -29,9 +29,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Dalvik/ART
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-# HWUI Caches
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
-
 # Languages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
