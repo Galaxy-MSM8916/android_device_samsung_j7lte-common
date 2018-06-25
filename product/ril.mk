@@ -1,5 +1,5 @@
 # RIL
-PRODUCT_PACKAGES += \
-	libril \
-	librilutils \
-	rild
+#PRODUCT_PACKAGES += \
+#	libril \
+#	librilutils \
+#	rild
