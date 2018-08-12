@@ -34,16 +34,17 @@ void init_target_properties(void)
 	char *device = NULL;
 	char *model = NULL;
 
+	/* get the bootloader string */
 	std::string bootloader = android::base::GetProperty("ro.bootloader", "");
 
-	if (bootloader.find("J700P") == 0) {
-		device = (char *)"j7ltespr";
-		model = (char *)"SM-J700P";
-		set_cdma_properties("Chameleon", "310000", "10");
+	if (bootloader.find("G600FY") == 0) {
+		device = (char *)"o7prolte";
+		model = (char *)"SM-G600FY";
+		set_lte_properties();
 	}
-	else if (bootloader.find("J7008") == 0) {
-		device = (char *)"j7ltechn";
-		model = (char *)"SM-J7008";
+	else if (bootloader.find("G6000") == 0) {
+		device = (char *)"on7ltechn";
+		model = (char *)"SM-G6000";
 		set_lte_properties();
 	}
 	else {
