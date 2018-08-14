@@ -1,40 +1,35 @@
-# Samsung Package Version J700PVPS1AQD1 (unless pinned)
-
 # ADSP
 vendor/lib/libmdsprpc.so
 
-# Audio from J5 stock ROM J500HXXU1APE5_J500HOXE1APE5_J500HXXU1APC2
-lib/hw/audio.primary.msm8916.so|f5655e39f6d0f7286c047a92b6eb980b
-lib/soundfx/libaudiosa_sec.so|59dfd2197b9ffeae2406674b78366aa4
-lib/soundfx/libaudioeffectoffload.so|2612cb27f13fc0a1596b102a0e4772b8
-lib/soundfx/libmyspace.so|67b87dea2e7dbad563675b02448eadd0
-lib/libaudioroute.so|f9a507b7388c37e2c87e1838b7118c82
-lib/lib_DNSe_EP_ver216b.so|dd715c29800a3aed28840d0973ac58e3
-lib/lib_DNSe_NRSS_ver230.so|8da8b6743aeb4f922dd4215f82b630bc
-lib/lib_PreGainBooster_ver104.so|afd4f290054046dec78ca6c58eec0de6
-lib/libmysound.so|bde9d3c9e1f7296259249d31582e1486
-lib/libsamsungearcare.so|1bf5a7acbbf97f5e78aae0497323431b
-lib/libsamsungeffect.so|82956cf257e5434a89ba475252efbdeb
-lib/libSamsungMusic_v4.so|6aea6bd3346f9d276c76bfb2f6d95cf5
-lib/libSamsungPkcs11Wrapper.so|f17eeedc9b8783462a7a6903f595a913
-lib/libSamsungPostProcess.so|a39f5a4e801ae0b05d5ebc092894680d
-lib/libsamsungpowersound.so|d10139665cd617e1000d9a73505198e3
-lib/libSamsungPreProcess.so|8bc5a0146d773947fb7ca76616165173
-lib/libsamsungRecord_ns.so|4b37b54f152534e6353511fda4c9a034
-lib/libsamsungRecord.so|91c8f2231f83bc331f0625e64fbbd9dd
-lib/lib_SamsungRec_V04013.so|466f9c975546ba45bdd34b1c7c48c8c2
-lib/lib_Samsung_Resampler.so|ebb377e9190d8f2b3acadf5be73c7a82
-lib/libsamsungSoundbooster_ext.so|3dd158bebf4f58daf57641b347533699
-lib/libsamsungSoundbooster_pgb.so|5907ad09230f17e2aa6e81b81e17d1de
-lib/libsamsungVoipResampler.so|9ce6dbde548ec27ebe0305047dd747c2
-lib/lib_SoundAlive_3DPosition_ver107.so|ce5b07fea6d7940066051978a7e7ffac
-lib/lib_SoundAlive_play_plus_ver126a.so|de7235d54464a3204b27a13f89c1bb48
-lib/lib_soundaliveresampler.so|cbc1653710bbb2c06283401f30eacf0e
-lib/libsoundalive.so|bc751b62b5e091a96d219d15dad39902
-lib/lib_SoundAlive_SRC192_ver205.so|cc4348ddb843a8c58cb217b7c343c5ae
-lib/lib_SoundAlive_ver118t.so|0b5ca5f1779d1ad3857256647c320250
-lib/lib_SoundBooster_ver608.so|212351c4a3e352eff7ff57886d2bdec2
-lib/libtinyalsa.so|f6289d56c9f016939c96bff666c8ceb9
+# Audio - from J5 stock ROM
+lib/hw/audio.primary.msm8916.so|64240f0d90c8c4d43e37ee88a41caf8389b7d6d1
+lib/soundfx/libaudiosaplus_sec.so|d9f6c1df4aed3ce1fba22b46038d8f2d9e875d82
+lib/soundfx/libaudioeffectoffload.so|4f2cc446fe7f490dcccc1d73027984e44be96c4b
+lib/soundfx/libmyspace.so|8be4850258863a22f4b8d150400a2730f914eeb1
+lib/libaudioroute.so|25a0e9050ce78223654c25f19f7da98323cad410
+lib/lib_DNSe_EP_ver216c.so|0088e33acdc1098a24b588ac88e98e53b5fa0e4b
+lib/lib_DNSe_NRSS_ver226.so|bd12a574c7ecdfe4937f4bb57dab654875da9f23
+lib/lib_PreGainBooster_ver105.so|1ba5b4081847d6106994e09034fd7a3d852a357b
+lib/libmysound.so|632a5cd0b304ce185942e9d408085696316d0192
+lib/libsamsungearcare.so|62242e96f8fa2e25cb4683ead34a389931412e15
+lib/libsamsungeffect.so|ac67a4db125a3956447e65855ccc1f29ed11affe
+lib/libSamsungPostProcess.so|4403f69ce805777465c182913bd8e8b1f2329357
+lib/libsamsungpowersound.so|c5c63890078ea0a330425bc7823cc24e58b2fa0a
+lib/libSamsungPreProcess.so|a2b2aec94a3ab27e1308898705cddecd31ca2e55
+lib/libsamsungRecord_ns.so|68874e1f73c4e4012e60447fe5a35f6813b5775b
+lib/libsamsungRecord.so|24b81ad869b0084e0226878c40eaa1a3a0408920
+lib/lib_SamsungRec_V04013.so|a6c07d9aefd2e4ddd709488faf0cb9b16c27efe2
+lib/libsamsungSoundbooster_ext.so|eda36c980f08af761b303afc0ce2653207ce2504
+lib/libsamsungSoundbooster_pgb.so|6c1e0de0967215f69327f60c16b67eac57557b65
+lib/libsamsungVoipResampler.so|51ed43a94f74467bde4aca12b75afe95d0ecfee9
+lib/libsecaudioinfo.so|4a6462821415ddba2462d2288c8cf13498a43ddd
+lib/lib_SoundAlive_3DPosition_ver202.so|f90958b9eaa2e3c1049bf6694b3bb92f224ecf7e
+lib/lib_SoundAlive_play_plus_ver127a.so|bab07884251f358b6665249ef984d0655ad83ca9
+lib/lib_soundaliveresampler.so|bad7c9c2c834a52c71c93c4809248da63792324c
+lib/lib_SoundAlive_SRC384_ver300.so|556adb8548978f2814f1f349fa9bb109d8c0c7df
+lib/lib_SoundBooster_ver610.so|b80502329a5cf6a9e692a8a1727b8e8454f8a04c
+lib/libtinyalsa.so|79509602fe6da9b8746678ace4eb1d93623b5e5c
+vendor/lib/libSamsungPkcs11Wrapper.so|e31a9f39e40ee454e5e9ce45927d54cd7c2078a9
 
 # Camera
 etc/B05QL_s5k5e3yx_module_info.xml
@@ -66,7 +61,6 @@ lib/libchromatix_s5k3l2xx_preview.so
 lib/libchromatix_s5k3l2xx_snapshot.so
 lib/libchromatix_s5k3l2xx_uhd_video.so
 lib/libchromatix_s5k3l2xx_zslshot.so
-lib/libface.so
 lib/libmmcamera2_stats_algorithm.so
 lib/libmmcamera_cac2_lib_13M.so
 lib/libmmcamera_wavelet_lib.so
@@ -111,11 +105,13 @@ vendor/lib/libmmipl.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
-vendor/lib/libqc-opt.so
 vendor/lib/libqomx_jpegenc.so
 
 # IRQ Balancer
 bin/msm_irqbalance
 
-# NFC (From https://github.com/NXPNFCProject/NXPNFCC_FW/blob/master/pn548ad/32-bit/libpn548ad_fw.so)
-vendor/firmware/libpn548ad_fw.so|88a35cebace27c3a93439972660f034b
+# Misc
+lib/libfloatingfeature.so
+
+# NFC - from https://github.com/NXPNFCProject/NXPNFCC_FW/blob/master/pn548ad/32-bit/libpn548ad_fw.so
+vendor/firmware/libpn548ad_fw.so|a012555d38b6067c807293bc494c8df3898ab1f6
