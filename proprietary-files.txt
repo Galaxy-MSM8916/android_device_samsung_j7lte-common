@@ -118,4 +118,4 @@ vendor/lib/libqomx_jpegenc.so
 bin/msm_irqbalance
 
 # NFC (From https://github.com/NXPNFCProject/NXPNFCC_FW/blob/master/pn548ad/32-bit/libpn548ad_fw.so)
-vendor/firmware/libpn548ad_fw.so|88a35cebace27c3a93439972660f034b
+vendor/firmware/libpn548ad_fw.so|a012555d38b6067c807293bc494c8df3898ab1f6
