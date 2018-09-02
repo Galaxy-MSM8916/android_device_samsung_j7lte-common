@@ -1,0 +1,2 @@
+# NFC
+BOARD_NFC_HAL_SUFFIX := pn54x.msm8916

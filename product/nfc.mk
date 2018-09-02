@@ -11,7 +11,7 @@ PRODUCT_PACKAGES += \
 	com.android.nfc_extras \
 	libnfc_nci \
 	libnfc_nci_jni \
-	nfc_nci.pn54x.msm8916 \
+	nfc_nci.$(BOARD_NFC_HAL_SUFFIX) \
 	NfcNci \
 	Tag
 
