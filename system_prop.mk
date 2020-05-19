@@ -12,10 +12,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.vc_call_vol_steps=15 \
 	ro.config.media_vol_steps=30
 
-# Chipname
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.chipname=MSM8929
-
 # HWUI Caches
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.texture_cache_size=72 \
