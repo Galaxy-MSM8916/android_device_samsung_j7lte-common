@@ -41,22 +41,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDoze
 
-# NFC packages
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0-impl \
-    android.hardware.nfc@1.0-service \
-    com.android.nfc_extras \
-    libnfc_nci \
-    libnfc_nci_jni \
-    nfc_nci.pn54x.msm8916 \
-    NfcNci \
-    Tag
-
-# NFC configs
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml \
-    $(LOCAL_PATH)/configs/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
+# NFC
+$(call inherit-product, device/samsung/msm8916-common/nfc/pn547/product.mk)
 
 # Media configurations
 PRODUCT_COPY_FILES += \

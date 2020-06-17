@@ -32,6 +32,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_j7lte
 # Lights
 TARGET_PROVIDES_LIBLIGHT := false
 
+# NFC
+-include device/samsung/msm8916-common/nfc/pn547/board.mk
+
 # RIL
 BOARD_MODEM_TYPE := xmm7260
 BOARD_PROVIDES_LIBRIL := true
