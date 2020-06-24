@@ -33,10 +33,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Doze
 PRODUCT_PACKAGES += \
     SamsungDoze
