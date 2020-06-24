@@ -30,8 +30,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8929
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay
 
 # Doze
 PRODUCT_PACKAGES += \
