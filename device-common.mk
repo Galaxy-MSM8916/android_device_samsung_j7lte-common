@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# SoC Variant
+TARGET_BOARD_PLATFORM_VARIANT := msm8929
+
 # Languages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
@@ -24,9 +27,6 @@ $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 $(call inherit-product-if-exists, vendor/samsung/j7lte-common/j7lte-common-vendor.mk)
 
 DEVICE_PATH := device/samsung/j7lte-common
-
-# SoC Variant
-TARGET_BOARD_PLATFORM_VARIANT := msm8929
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += \
